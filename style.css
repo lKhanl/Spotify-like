@@ -52,3 +52,11 @@ body {
     -ms-user-select: none;
     user-select: none;
 }
+
+.table-round {
+    border-radius: 10px;
+}
+.nav-item:hover {
+    background-color: rgb(163, 106, 125);
+    border-radius: 20px;
+}
