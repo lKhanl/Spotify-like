@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(109, 201, 201);
+}
+
+.btn1 {
+    height: 300px;
+    background-color: rgb(106, 108, 110);
+}
+
+.btn2 {
+    height: 200px;
+    background-color: rgb(39, 104, 170);
+}
+
+.btn1:hover {
+    background-color: rgb(163, 106, 125);
+}
+.a {
+    display: block;
+}
+.playlistRow {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+}
+.playlistRow:hover {
+    background-color: blueviolet;
+    cursor: crosshair;
+}
+.bigText {
+    font-size: x-large;
+}
+.leftBorder {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.rightBorder {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
