@@ -228,7 +228,8 @@ function showDetails(event) {
 function about() {
     div.textContent = ""
     var node = document.createElement("p")
-    node.style = "font-size:26px"
+    node.style = "font-size:24px"
+    node.className = "mt-5"
     var txt = document.createTextNode("This is a demonstration of school project!")
     var img = document.createElement("i")
     img.className = "fab fa-spotify fa-10x"
