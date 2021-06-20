@@ -7,11 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Playlist Visualizer</title>
     <link rel="stylesheet" href="bootstrap-4.6.0-dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-secondary text-white">
+        <i class="fab fa-spotify fa-4x mr-4" style="color:#1DB954"></i>
         <h1 class="noselect mr-4">Spotify Like</h1>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +29,7 @@
                     </button>
                 </li>
                 <li class="nav-item">
-                    <button class="btn text-white bigText align-content-center" onClick="">About
+                    <button class="btn text-white bigText align-content-center" onClick="about()">About
                     </button>
                 </li>
             </ul>

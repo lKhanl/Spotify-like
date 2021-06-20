@@ -30,15 +30,6 @@ function showPlaylists(event) {
     };
 }
 
-// function getNames(txt) {
-//     var arr = new Array()
-//     var temp = JSON.parse(txt).playlists
-//     for (i = 0; i < temp.length; i++) {
-//         arr.push(temp[i].name)
-//     }
-//     return arr;
-// }
-
 function show(myArr) {
 
     div.classList.remove("d-flex")
@@ -232,4 +223,17 @@ function showDetails(event) {
 
 
 
+}
+
+function about() {
+    div.textContent = ""
+    var node = document.createElement("p")
+    node.style = "font-size:26px"
+    var txt = document.createTextNode("This is a demonstration of school project!")
+    var img = document.createElement("i")
+    img.className = "fab fa-spotify fa-10x"
+
+    node.appendChild(txt)
+    div.appendChild(img)
+    div.appendChild(node)
 }
